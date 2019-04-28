@@ -79,6 +79,7 @@ module.exports = {
     new VueLoaderPlugin()
   ],
   devServer: {
+    contentBase: './src',
     overlay: true,
     historyApiFallback: true
   }
